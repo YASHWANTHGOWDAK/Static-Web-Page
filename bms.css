@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(51, 53, 69);
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navbar input{
+    width: 400px;
+    height: 20px;
+    transform: translateX(-140px);
+    border-radius: 3px;
+    border: none;
+}
+
+.navbar select{
+    background: #0000;
+    color: gainsboro;
+    border: none;
+   
+}
+.city>button {
+    background:#f84464;
+    padding: 5px;
+    border: 1px solid #f84464;
+    border-radius: 5px;
+
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(31, 37, 51);
+    padding: 0px 80px;
+   
+}
+
+.navlist a{
+    text-decoration: none;
+    color: gainsboro;
+    padding: 0px 7px;
+    
+}
+sup{
+    color: red;
+    font-weight: 700;
+}
+
+.content1 img{
+    height: 200px;
+    border-radius: 5px;
+    margin: 5px 2px;
+}
+
+.content1{
+    border-color: whitesmoke;
+}
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.content2 a{
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+}
+.content3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    
+
+}
+.section>img{
+    width: 240px;
+    height: 360px;
+    border-radius: 10px;
+    transform: translateY(100px);
+}
+.section>img:hover{
+    transform: translateY(0px);
+    transition: 1.5s;
+}
+.section>h3{
+    width: 220px;
+}
+#icon{
+    height: 20px;
+    transform: translateX(-115px);
+    z-index: 1;
+    position: relative;
+    translate: 1px 5px;
+}
+.search>input::placeholder{
+    transform: translateX(20px);
+}
